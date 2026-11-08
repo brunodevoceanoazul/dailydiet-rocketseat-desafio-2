@@ -30,7 +30,6 @@ export function MealDetails() {
 
   if (!meal) return null;
 
-  const bgClass = meal.is_on_diet ? 'bg-green' : 'bg-red';
 
   return (
     <div style={{ backgroundColor: meal.is_on_diet ? 'var(--color-green-light)' : 'var(--color-red-light)', minHeight: '100vh' }}>
